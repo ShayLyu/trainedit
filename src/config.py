@@ -1,4 +1,4 @@
-"""Canonical v1 experiment parameters.
+"""TrainEdit v1 experiment parameters.
 
 The protocol in docs/v1_protocol.md describes these values. If a number
 changes, update both files.

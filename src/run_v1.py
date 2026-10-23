@@ -1,4 +1,4 @@
-"""Run the reduced or full v1 budget-allocation experiment."""
+"""Run the reduced or full TrainEdit budget-allocation experiment."""
 
 from __future__ import annotations
 
@@ -37,7 +37,7 @@ def _dump(path: Path, payload: dict) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="v1 reference-adaptation budget experiment")
+    parser = argparse.ArgumentParser(description="TrainEdit reference-adaptation budget experiment")
     parser.add_argument("--scale", choices=("reduced", "full"), default="reduced")
     parser.add_argument("--sanity-only", action="store_true")
     parser.add_argument("--skip-allocation", action="store_true")
